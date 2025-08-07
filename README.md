@@ -43,25 +43,19 @@ All agents interact within a shared environment but maintain independent policie
    pip install -r requirements.txt
    ```
 
-3. **Train the agents**  
+3. **Train and test the agents**  
    ```bash
-   python train.py
+   python main.py
    ```
 
-4. **Evaluate or test agents**  
-   ```bash
-   python evaluate.py
-   ```
 
 ## 📂 Project Structure
 
 ```
 supply-chain-marl/
-├── env/                      # Custom environment implementation
-│   └── supply_chain_env.py
-├── agents/                   # Agent-specific configs or wrappers
-├── train.py                  # Training loop using PPO and RLlib
-├── evaluate.py               # Evaluation script
+├── env.py                      # Custom environment implementation
+├── multi_wrapper.py            # wrapper in order to train the model
+├── main.py                     # Training and testin the model
 ├── requirements.txt
 └── README.md
 ```

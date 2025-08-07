@@ -64,6 +64,4 @@ supply-chain-marl/
 
 This project is released under the MIT License.
 
----
 
-For research collaborations or inquiries, feel free to open an issue or contact the maintainer.
